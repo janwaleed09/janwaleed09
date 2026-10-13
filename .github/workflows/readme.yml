@@ -2,8 +2,8 @@ name: Update README
 
 on:
   schedule:
-    - cron: "23 5 * * *"   # daily
-  workflow_dispatch:         # "Run workflow" button for a manual run
+    - cron: "23 5 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write

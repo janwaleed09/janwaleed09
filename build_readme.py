@@ -1,9 +1,3 @@
-"""Rewrites the "Recently merged pull requests" section of README.md.
-
-Lists pull requests by USER that were merged into repositories owned by
-someone else, newest first. PRs that maintainers took over by cherry-pick
-(closed, not merged on GitHub) are listed in extra-prs.json.
-"""
 import json
 import os
 import pathlib
@@ -12,7 +6,7 @@ import urllib.parse
 import urllib.request
 
 USER = "janwaleed09"
-LIMIT = 15  # show everything for now; lower it once the list gets long
+LIMIT = 15
 
 HEADERS = {
     "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
@@ -28,7 +22,6 @@ def get(url):
 
 
 def escape(title):
-    # Square brackets would break the Markdown link text.
     return title.replace("[", "\\[").replace("]", "\\]")
 
 
