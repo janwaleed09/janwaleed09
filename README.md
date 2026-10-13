@@ -16,7 +16,7 @@ var jan = new Developer(
   <img alt="PHP, Symfony, TypeScript, React, Java, Go, Docker, RabbitMQ, MySQL" src="https://skillicons.dev/icons?i=php,symfony,ts,react,java,go,docker,rabbitmq,mysql&theme=light">
 </picture>
 
-## Recently merged pull requests
+## Recent pull requests
 
 <!-- recent_prs starts -->
 - **debezium/debezium**: [debezium/dbz#2816 Cancel polling tasks that start right before the en…](https://github.com/debezium/debezium/pull/8196) · 2026-10-09
@@ -33,5 +33,3 @@ var jan = new Developer(
 - **spring-projects/spring-amqp**: [Map received exchange and routing key from AMQP 1.0 annotations](https://github.com/spring-projects/spring-amqp/pull/3699) · 2026-09-29
 - **spring-projects/spring-amqp**: [Map `expiration` to AMQP 1.0 header `ttl`](https://github.com/spring-projects/spring-amqp/pull/3692) · 2026-09-28
 <!-- recent_prs ends -->
-
-[All pull requests →](https://github.com/search?q=is%3Apr+author%3Ajanwaleed09+-user%3Ajanwaleed09&type=pullrequests)

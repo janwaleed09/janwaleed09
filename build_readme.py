@@ -1,3 +1,8 @@
+"""Rewrites the "Recent pull requests" section of README.md.
+
+Lists merged and open pull requests by USER in repositories owned by
+someone else, newest first. Open PRs are marked "(in review)".
+"""
 import json
 import os
 import pathlib
@@ -31,6 +36,11 @@ def collect():
     for it in get(f"https://api.github.com/search/issues?q={query}&per_page=100")["items"]:
         repo = it["repository_url"].split("/repos/")[1]
         items[it["html_url"]] = (it["pull_request"]["merged_at"], repo, it["title"], it["html_url"], "")
+
+    query_open = urllib.parse.quote(f"is:pr is:open author:{USER} -user:{USER}")
+    for it in get(f"https://api.github.com/search/issues?q={query_open}&per_page=100")["items"]:
+        repo = it["repository_url"].split("/repos/")[1]
+        items[it["html_url"]] = (it["created_at"], repo, it["title"], it["html_url"], " (in review)")
 
     extra = pathlib.Path("extra-prs.json")
     for ref in json.loads(extra.read_text()) if extra.exists() else []:
