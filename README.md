@@ -12,7 +12,7 @@ var jan = new Developer(
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php,symfony,ts,react,java,go,docker,rabbitmq,mysql&theme=dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php%2Csymfony%2Cts%2Creact%2Cjava%2Cgo%2Cdocker%2Crabbitmq%2Cmysql&theme=dark">
   <img alt="PHP, Symfony, TypeScript, React, Java, Go, Docker, RabbitMQ, MySQL" src="https://skillicons.dev/icons?i=php,symfony,ts,react,java,go,docker,rabbitmq,mysql&theme=light">
 </picture>
 
