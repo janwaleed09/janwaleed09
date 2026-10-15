@@ -19,6 +19,7 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
+- **spring-projects/spring-boot**: [Look up classes and resources directly in nested jars](https://github.com/spring-projects/spring-boot/pull/52246) (in review) · 2026-10-15
 - **spring-projects/spring-boot**: [Package manifest attributes are missing for nested jars without directory entries](https://github.com/spring-projects/spring-boot/pull/52244) (in review) · 2026-10-15
 - **spring-projects/spring-boot**: [Logback ColorConverter unnecessarily parses its options for every log event](https://github.com/spring-projects/spring-boot/pull/52228) (in review) · 2026-10-14
 - **spring-projects/spring-kafka**: [GH-4737: Ignore back offs in maxRecoveryFailures](https://github.com/spring-projects/spring-kafka/pull/4738) · 2026-10-14
@@ -33,5 +34,4 @@ var jan = new Developer(
 - **Graphify-Labs/graphify**: [fix(java): resolve calls to inherited methods and super](https://github.com/Graphify-Labs/graphify/pull/3932) (merged via cherry-pick) · 2026-09-30
 - **rectorphp/rector-src**: [\[Parallel\] Terminate timed out and unconnected workers](https://github.com/rectorphp/rector-src/pull/8522) · 2026-09-30
 - **rectorphp/rector-src**: [\[Parallel\] Fix silently skipped files when the only worker is respawned](https://github.com/rectorphp/rector-src/pull/8521) · 2026-09-30
-- **spring-projects/spring-integration**: [Reject unconvertible messages in AMQP 1.0 inbound endpoints](https://github.com/spring-projects/spring-integration/pull/11500) · 2026-09-29
 <!-- recent_prs ends -->
