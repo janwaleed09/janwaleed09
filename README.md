@@ -19,9 +19,9 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
-- **spring-projects/spring-boot**: [Look up classes and resources directly in nested jars](https://github.com/spring-projects/spring-boot/pull/52246) (in review) · 2026-10-15
-- **spring-projects/spring-boot**: [Package manifest attributes are missing for nested jars without directory entries](https://github.com/spring-projects/spring-boot/pull/52244) (in review) · 2026-10-15
-- **spring-projects/spring-boot**: [Logback ColorConverter unnecessarily parses its options for every log event](https://github.com/spring-projects/spring-boot/pull/52228) (in review) · 2026-10-14
+- **spring-projects/spring-boot**: [Improve uber jar performance by looking up classes and resources directly in nested jars](https://github.com/spring-projects/spring-boot/pull/52246) · 2026-10-17
+- **spring-projects/spring-boot**: [Logback ColorConverter unnecessarily parses its options for every log event](https://github.com/spring-projects/spring-boot/pull/52228) · 2026-10-17
+- **spring-projects/spring-boot**: [Package manifest attributes are missing for nested jars without directory entries](https://github.com/spring-projects/spring-boot/pull/52244) · 2026-10-17
 - **spring-projects/spring-kafka**: [GH-4737: Ignore back offs in maxRecoveryFailures](https://github.com/spring-projects/spring-kafka/pull/4738) · 2026-10-14
 - **moby/buildkit**: [cache: fix content hash leak for removed records](https://github.com/moby/buildkit/pull/7264) (in review) · 2026-10-09
 - **debezium/debezium**: [debezium/dbz#2816 Cancel polling tasks that start right before the en…](https://github.com/debezium/debezium/pull/8196) · 2026-10-09
