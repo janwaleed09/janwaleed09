@@ -19,6 +19,8 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
+- **spring-projects/spring-boot**: [Apply the readAllBytes() optimization to deflated nested jar entries](https://github.com/spring-projects/spring-boot/pull/52285) (in review) · 2026-10-18
+- **spring-projects/spring-boot**: [JarUrlClassLoader rejects valid class names since #52271](https://github.com/spring-projects/spring-boot/pull/52284) (in review) · 2026-10-18
 - **spring-projects/spring-boot**: [Improve uber jar performance by looking up classes and resources directly in nested jars](https://github.com/spring-projects/spring-boot/pull/52246) · 2026-10-17
 - **spring-projects/spring-boot**: [Logback ColorConverter unnecessarily parses its options for every log event](https://github.com/spring-projects/spring-boot/pull/52228) · 2026-10-17
 - **spring-projects/spring-boot**: [Package manifest attributes are missing for nested jars without directory entries](https://github.com/spring-projects/spring-boot/pull/52244) · 2026-10-17
@@ -32,6 +34,4 @@ var jan = new Developer(
 - **infection/infection**: [fix(phpunit): Select data sets whose names only look like numbers](https://github.com/infection/infection/pull/3608) · 2026-10-02
 - **rectorphp/rector-src**: [\[Performance\] Resolve class-like names once per file version in Short…](https://github.com/rectorphp/rector-src/pull/8524) · 2026-10-01
 - **Graphify-Labs/graphify**: [fix(java): resolve calls to inherited methods and super](https://github.com/Graphify-Labs/graphify/pull/3932) (merged via cherry-pick) · 2026-09-30
-- **rectorphp/rector-src**: [\[Parallel\] Terminate timed out and unconnected workers](https://github.com/rectorphp/rector-src/pull/8522) · 2026-09-30
-- **rectorphp/rector-src**: [\[Parallel\] Fix silently skipped files when the only worker is respawned](https://github.com/rectorphp/rector-src/pull/8521) · 2026-09-30
 <!-- recent_prs ends -->
