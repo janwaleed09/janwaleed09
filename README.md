@@ -19,8 +19,8 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
-- **spring-projects/spring-boot**: [Apply the readAllBytes() optimization to deflated nested jar entries](https://github.com/spring-projects/spring-boot/pull/52285) (in review) · 2026-10-18
-- **spring-projects/spring-boot**: [JarUrlClassLoader rejects valid class names since #52271](https://github.com/spring-projects/spring-boot/pull/52284) (in review) · 2026-10-18
+- **spring-projects/spring-boot**: [Apply the readAllBytes() optimization to deflated nested jar entries](https://github.com/spring-projects/spring-boot/pull/52285) · 2026-10-18
+- **spring-projects/spring-boot**: [JarUrlClassLoader rejects valid class names since #52271](https://github.com/spring-projects/spring-boot/pull/52284) · 2026-10-18
 - **spring-projects/spring-boot**: [Improve uber jar performance by looking up classes and resources directly in nested jars](https://github.com/spring-projects/spring-boot/pull/52246) · 2026-10-17
 - **spring-projects/spring-boot**: [Logback ColorConverter unnecessarily parses its options for every log event](https://github.com/spring-projects/spring-boot/pull/52228) · 2026-10-17
 - **spring-projects/spring-boot**: [Package manifest attributes are missing for nested jars without directory entries](https://github.com/spring-projects/spring-boot/pull/52244) · 2026-10-17
