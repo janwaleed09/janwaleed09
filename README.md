@@ -19,6 +19,7 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
+- **finos/fluxnova-feel-scala**: [fix(feel-engine): reuse root context across evaluations](https://github.com/finos/fluxnova-feel-scala/pull/59) (in review) · 2026-11-13
 - **moby/buildkit**: [cache: fix content hash leak for removed records](https://github.com/moby/buildkit/pull/7264) · 2026-11-03
 - **spring-projects/spring-boot**: [Apply the readAllBytes() optimization to deflated nested jar entries](https://github.com/spring-projects/spring-boot/pull/52285) · 2026-10-18
 - **spring-projects/spring-boot**: [JarUrlClassLoader rejects valid class names since #52271](https://github.com/spring-projects/spring-boot/pull/52284) · 2026-10-18
@@ -33,5 +34,4 @@ var jan = new Developer(
 - **infection/infection**: [perf(ast): Clone the AST only once per mutant](https://github.com/infection/infection/pull/3609) · 2026-10-02
 - **infection/infection**: [fix(phpunit): Select data sets whose names only look like numbers](https://github.com/infection/infection/pull/3608) · 2026-10-02
 - **rectorphp/rector-src**: [\[Performance\] Resolve class-like names once per file version in Short…](https://github.com/rectorphp/rector-src/pull/8524) · 2026-10-01
-- **Graphify-Labs/graphify**: [fix(java): resolve calls to inherited methods and super](https://github.com/Graphify-Labs/graphify/pull/3932) (merged via cherry-pick) · 2026-09-30
 <!-- recent_prs ends -->
