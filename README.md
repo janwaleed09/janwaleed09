@@ -19,6 +19,8 @@ var jan = new Developer(
 ## Recent pull requests
 
 <!-- recent_prs starts -->
+- **finos/fluxnova-bpm-platform**: [fix(dmn-model): map the fluxnova namespace to the camunda namespace](https://github.com/finos/fluxnova-bpm-platform/pull/388) (in review) · 2026-11-14
+- **finos/fluxnova-plugins**: [Keycloak identity provider](https://github.com/finos/fluxnova-plugins/pull/71) (in review) · 2026-11-13
 - **finos/fluxnova-feel-scala**: [fix(feel-engine): reuse root context across evaluations](https://github.com/finos/fluxnova-feel-scala/pull/59) (in review) · 2026-11-13
 - **moby/buildkit**: [cache: fix content hash leak for removed records](https://github.com/moby/buildkit/pull/7264) · 2026-11-03
 - **spring-projects/spring-boot**: [Apply the readAllBytes() optimization to deflated nested jar entries](https://github.com/spring-projects/spring-boot/pull/52285) · 2026-10-18
@@ -32,6 +34,4 @@ var jan = new Developer(
 - **ansible/ansible**: [Fix crash on no_log options with non-string defaults](https://github.com/ansible/ansible/pull/87624) · 2026-10-07
 - **tree-sitter/tree-sitter-php**: [feat: support clone with arguments](https://github.com/tree-sitter/tree-sitter-php/pull/306) · 2026-10-06
 - **infection/infection**: [perf(ast): Clone the AST only once per mutant](https://github.com/infection/infection/pull/3609) · 2026-10-02
-- **infection/infection**: [fix(phpunit): Select data sets whose names only look like numbers](https://github.com/infection/infection/pull/3608) · 2026-10-02
-- **rectorphp/rector-src**: [\[Performance\] Resolve class-like names once per file version in Short…](https://github.com/rectorphp/rector-src/pull/8524) · 2026-10-01
 <!-- recent_prs ends -->
